@@ -1,0 +1,251 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+#navbarNav ul li a {
+  color: rgb(255, 255, 255);
+}
+
+.container-fluid a {
+  color: rgb(190, 160, 160);
+  font-size: large;
+
+}
+
+#navbarNav ul li a:hover {
+  background-color: rgb(252, 237, 237);
+  border-radius: 20px;
+  color: black;
+}
+
+.rel {
+  position: relative;
+
+}
+
+.hotel {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(252, 231, 231);
+}
+
+.or {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: small;
+}
+
+h1 {
+  font-family: Georgia;
+}
+
+h5 {
+  font-size: 1.25rem;
+  color: rgb(190, 160, 160);
+  margin-top: 3%;
+  border-radius: 5px;
+  border: #19191A;
+
+}
+
+h2 {
+  font-size: 40px;
+  color: #19191A;
+}
+
+.home-about {
+  margin-top: 5%;
+}
+
+.home-about-pic img {
+  width: 100%;
+  height: 290px;
+
+}
+
+.img-about img {
+  width: 500px;
+  height: 500px;
+}
+
+.services {
+  margin-top: 5%;
+}
+
+.container {
+  padding: 2% 5%;
+}
+
+.services__item {
+  padding: 4%;
+}
+
+h4 {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.rooms h4 {
+  text-align: center;
+  color: rgb(190, 160, 160);
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #4e565e;
+}
+
+#more {
+  display: flex;
+  justify-content: center;
+}
+
+#more h5 {
+  font-size: medium;
+  color: #ffffff;
+  width: 100px;
+  height: 25px;
+  background-color: rgb(0, 107, 201);
+  padding-top: 2px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+footer {
+  background: #212529;
+}
+
+#ftr {
+  margin-top: 6%;
+}
+
+.gradient-custom-2 {
+  background-image: linear-gradient(62deg, #FBAB7E 0%, rgb(190, 160, 160) 100%);
+}
+
+
+#lgn {
+  margin-top: 5%;
+}
+
+
+#ftr-registre {
+  margin-top: 25%;
+}
+
+#ftr-contact {
+  margin-top: 13%;
+}
+
+#register {
+  margin-top: 4%;
+}
+
+#back {
+  background-image: linear-gradient(62deg, #FBAB7E 0%, rgb(190, 160, 160) 100%);
+
+}
+
+#ftr-addroom {
+  margin-top: 30px;
+}
+
+.all {
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  border: #19191A solid;
+  border-radius: 20px;
+  width: 80%;
+
+}
+
+.form {
+  padding-bottom: 5%;
+}
+
+
+.booking h2 {
+  padding-top: 100px;
+}
+
+.book {
+  margin-left: 17%;
+
+}
+
+.table-responsive {
+  padding-top: 10%;
+}
+
+.alert {
+  color: #636464;
+  font-size: large;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .title {
+    width: 40%;
+  }
+
+  .hotel {
+    height: 80%;
+
+  }
+
+
+  .card {
+    padding-top: 5%;
+  }
+
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+
+  .gradient-form {
+    height: 100vh !important;
+  }
+
+
+}
